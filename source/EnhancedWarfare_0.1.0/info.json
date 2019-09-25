@@ -1,0 +1,13 @@
+{
+    "name": "EnhancedArmor",
+    "version": "0.1.0",
+    "title": "Enhanced Warfare",
+    "author": "SarcasticMonkey",
+    "contact": "",
+    "homepage": "https://github.com/SarcasticMonkey/EnhancedWarfare",
+    "factorio_version": "0.17",
+    "dependencies": [
+        "base >= 0.17"
+    ],
+    "description": "This mod reworks the entire warfare aspect of factorio. For details see: https://github.com/SarcasticMonkey/EnhancedWarfare/blob/master/README.md"
+}
