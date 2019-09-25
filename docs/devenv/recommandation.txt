@@ -1,0 +1,8 @@
+Recommended IDE:
+Visual Studio Code
+
+Recommended extensions:
+- lua           (by keyring)
+- PowerShell    (by Mcirosoft)
+- json          (by ZainChen)
+- GitLens       (by Eric Amodio)
