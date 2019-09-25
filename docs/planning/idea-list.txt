@@ -1,0 +1,21 @@
+- Barbed wire
+-- Damage and slow enemies and players
+-- Damaged if stepped upon
+
+- Additional wall and gate types
+-- Concrete walls
+-- Refined concrete walls
+
+- Wall and turret rework
+-- Walls have modification slots, can be used for e.g. barbed wire or as a turret base
+-- Turrets are no longer "standalone", always placed upon walls, in 4x4 (hxw) up to  6x6 depending on the type of turret
+-- Gun and laser turrets are 4x4
+-- Flamethrower turrets are 6x4, lowest 2 squares can be used to insert fuel
+-- Additional turrets
+--- Shotgun turret: 4x4, projectile is spawned in 1 tile distance to front of the turret, friendly fire, similar to flamethrower turrets fixed direction of fire
+--- Rocket turret: 6x6, projectile is spawned in 1 tile distance to front of the turret, friendly fire, similar to flamethrower turrets fixed direction of fire, minimum range to turret required to fire
+
+- New material "plasteel"
+-- Compound of plastic and steel
+-- Harder then refined concrete
+-- Used for walls, gates, turrets, new vehicles
