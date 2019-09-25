@@ -1,9 +1,9 @@
 {
-    "name": "EnhancedArmor",
+    "name": "EnhancedWarfare",
     "version": "0.1.0",
     "title": "Enhanced Warfare",
-    "author": "SarcasticMonkey",
-    "contact": "",
+    "author": "Contributing team of the github repository",
+    "contact": "Contact via github",
     "homepage": "https://github.com/SarcasticMonkey/EnhancedWarfare",
     "factorio_version": "0.17",
     "dependencies": [
