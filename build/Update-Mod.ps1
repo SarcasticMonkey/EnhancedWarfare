@@ -11,4 +11,6 @@ param (
     [Parameter(Mandatory = $false)][string] $ModFolder = (Join-Path -Path $env:APPDATA -ChildPath "Factorio\Mods")
 )
 
-Copy-Item -Path ..\source\EnhancedWarfare_0.1.0 -Destination $ModFolder -Recurse -Force -Confirm:$false -Verbose
+$Version = (Get-Content -Path ..\source\EnhancedWarfare\info.json | ConvertFrom-Json).version
+$Destination = (New-Item -Path $ModFolder -ItemType Directory -Name ("EnhancedWarfare_" + $Version)).FullName
+Copy-Item -Path ..\source\EnhancedWarfare\* -Destination $Destination -Recurse -Force -Confirm:$false -Verbose
